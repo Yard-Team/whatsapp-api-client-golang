@@ -16,8 +16,8 @@ func main() {
 	//APITokenInstance := os.Getenv("API_TOKEN_INSTANCE")
 
 	BasisAPI := api.BasisAPI{
-		IDInstance:       "9901739550",
-		APITokenInstance: "691f0b48a6e344d699cd986d61ea16a288c6538d584b494c8c",
+		IDInstance:       "IDInstance",
+		APITokenInstance: "APITokenInstance",
 	}
 
 	response, err := BasisAPI.Methods().Sending().SendMessage(map[string]interface{}{
