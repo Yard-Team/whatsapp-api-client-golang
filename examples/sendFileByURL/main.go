@@ -16,6 +16,7 @@ func main() {
 	//APITokenInstance := os.Getenv("API_TOKEN_INSTANCE")
 
 	BasisAPI := api.BasisAPI{
+		URL:              "API_HOST",
 		IDInstance:       "IDInstance",
 		APITokenInstance: "APITokenInstance",
 	}
