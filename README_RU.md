@@ -2,7 +2,7 @@
 
 whatsapp-api-client-golang - библиотека на Go, созданная для интеграции с WhatsApp через API
 сервиса [BASIS API](https://basis-api.com/). Чтобы начать использовать библиотеку, вам нужно получить ID и token
-аккаунта в [личном кабинете](https://cabinet.basis-api.com/).
+аккаунта в [личном кабинете](https://ru-cabinet.basis-api.com).
 
 ## API
 
@@ -27,7 +27,7 @@ import (
 
 Чтобы отправить сообщение или выполнить другие методы API, аккаунт WhatsApp в приложении телефона должен быть в
 авторизованном состоянии. Для авторизации аккаунта нужно просканировать QR-код
-в [личном кабинете](https://cabinet.basis-api.com/) с использованием приложения WhatsApp.
+в [личном кабинете](https://ru-cabinet.basis-api.com) с использованием приложения WhatsApp.
 
 ## Примеры
 
@@ -35,6 +35,7 @@ import (
 
 ```
 BasisAPI := api.BasisAPI{
+    URL: "https://ru-api.basis-api.com",
     IDInstance:       "1234",
     APITokenInstance: "bde035edae3fc00bc116bd112297908d8145e5ba8decc5d884",
 }

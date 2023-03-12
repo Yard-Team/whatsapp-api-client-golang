@@ -3,8 +3,8 @@
 - [Документация на русском языке](README_RU.md)
 
 whatsapp-api-client-golang - Go library designed to integrate with WhatsApp using the
-service [BASIS API](https://basis-api.com/). To start using the library, you need to get an ID and a token account
-in [personal cabinet](https://cabinet.basis-api.com/).
+service [BASIS API](https://basis-api.com). To start using the library, you need to get an ID and a token account
+in [personal cabinet](https://cabinet.basis-api.com).
 
 ## API
 
@@ -37,6 +37,7 @@ WhatsApp application.
 
 ```
 BasisAPI := api.BasisAPI{
+    URL: "https://api.basis-api.com",
     IDInstance:       "1234",
     APITokenInstance: "bde035edae3fc00bc116bd112297908d8145e5ba8decc5d884",
 }
